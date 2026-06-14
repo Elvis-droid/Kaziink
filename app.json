@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "KaziLink",
+    "slug": "kazilink",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f766e"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.kazilink.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f766e"
+      },
+      "package": "com.kazilink.app",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "KaziLink needs access to your photos for profile pictures.",
+          "cameraPermission": "KaziLink needs access to your camera for profile pictures."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-eas-project-id-here"
+      }
+    }
+  }
+}
