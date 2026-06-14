@@ -37,6 +37,7 @@
         }
       ]
     ],
+    "owner": "murdas-team",
     "extra": {
       "eas": {
         "projectId": "162a7428-0965-41cf-a02d-a811655e23f5"
